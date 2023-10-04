@@ -1,6 +1,6 @@
 //Arrays
 
-// const myArr = [1,2,3,4]  //Arrow always make shallow copies : whose propeties share the same refrence as we make changes in the copied array will reflect to the original---
+// const myArr = [1,2,3,4]  //Array always make shallow copies : whose propeties share the same refrence as we make changes in the copied array will reflect to the original---
 // const myArr2 = myArr;
 // myArr2[2]=5;
 // console.log(myArr)
@@ -25,9 +25,16 @@
 // console.log(newArr);
 
 
-const myArr = [1,2,3,4,5,6,7,8]
-const nArr = myArr.slice(1,4)
-console.log(nArr);
-const tArr = myArr.splice(0,3)
-console.log(tArr);
-console.log(myArr);  //Will also cut from original array 
+// const myArr = [1,2,3,4,5,6,7,8]
+// const nArr = myArr.slice(1,4)
+// console.log(nArr);
+// const tArr = myArr.splice(0,3)
+// console.log(tArr);
+// console.log(myArr);  //Will also cut from original array 
+ 
+const elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());  //Join method used to show how we want to join
+
+
+console.log(elements.join('_'));
