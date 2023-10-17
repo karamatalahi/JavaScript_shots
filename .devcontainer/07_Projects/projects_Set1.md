@@ -29,3 +29,21 @@ button.forEach(function (btn){
   })
 })
 ```
+
+## project 2 solution code 
+
+```javascript
+const form = document.querySelector('form');
+form.addEventListener('submit', function(e){
+  e.preventDefault();
+  const height = parseInt(document.querySelector('#height').value);
+  const weight = parseInt(document.querySelector('#weight').value);
+  const results =document.querySelector('#results');
+  if(height ==='' || weight ===''|| height <0 ||weight < 0 || isNaN(height)|| isNaN(weight)){
+    results.innerHTML = 'please enter valid input'
+  }
+  else{
+    results.innerHTML = (weight /((height*height)/10000)).toFixed(2)
+  }
+})
+```
