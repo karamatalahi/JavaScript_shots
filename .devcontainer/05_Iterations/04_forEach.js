@@ -3,12 +3,12 @@
 //     console.log(elements,index,arr)
 // })
 
-const obj = [
-  { languageName: "java", languageCode: "jv" },
-  { languageName: "Python", languageCode: "py" },
-  { languageName: "javaScript", languageCode: "js" }
-];
+// const obj = [
+//   { languageName: "java", languageCode: "jv" },
+//   { languageName: "Python", languageCode: "py" },
+//   { languageName: "javaScript", languageCode: "js" }
+// ];
 
-obj.forEach((item)=>{
-    console.log(item.languageName)
-})
+// obj.forEach(item=>{
+//   console.log(item.languageName)
+// })

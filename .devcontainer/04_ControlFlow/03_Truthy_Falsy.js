@@ -18,10 +18,9 @@ Truthy values:---
 
 // for objects 
 
-// const emptyObj = {}
-
-// if(Object.keys(emptyObj).length===0){
-//     console.log("object is empty");
+// const myObj = {}
+// if(Object.keys(myObj).length===0){
+//     console.log("empty")
 // }
 
 
@@ -35,11 +34,11 @@ Truthy values:---
 
 
 
-{
-    const x=10;
-    let y=20;
-    var z=100;
-}
-console.log(x);
+// {
+//     const x=10;
+//     let y=20;
+//     var z=100;
+// }
+// console.log(x);
 // console.log(y);
 // console.log(z);
