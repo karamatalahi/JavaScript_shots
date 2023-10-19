@@ -16,8 +16,8 @@
 // console.log(arr);
 // arr.unshift(0)  //Willl add zero at the first index
 // console.log(arr);
-// arr.shift()
-// console.log(arr);//will remove the arr[0]
+// arr.shift() //will remove the arr[0]
+// console.log(arr);
 
 // //includes
 // console.log(arr.includes(9))

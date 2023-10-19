@@ -11,9 +11,9 @@
 // const substr = newGame.substring(0,4);  //this will give batt till 0,3
 // console.log(substr);
 
-// const anotherName = 'mukeshCha'
-// const anotherSlice = anotherName.slice(-8,3);
-// console.log(anotherSlice)
+const anotherName = 'mukeshCha'
+const anotherSlice = anotherName.slice(-8,3);
+console.log(anotherSlice)
 
 //trim removes the extra spaces in a string
 
